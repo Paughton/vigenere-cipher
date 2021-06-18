@@ -7,10 +7,10 @@ However this interpretation of the cipher uses a seed (a long string of numbers)
 To install using git: `git clone https://github.com/Paughton/vigenere-cipher.git`
 
 ## Releases
-All releases will be pushed to the live version of the website. To view all releases and changes please see our [Changelog](https://github.com/Paughton/vigenere-cipher/blob/main/CHANGELOG.md). The changelog file will change upon releases and will highlight the general changes. Once a release is made a new branch will be made for that release for archive purposes.
+All releases will be pushed to the live version of the website. To view all releases and changes please see our [Changelog](https://github.com/Paughton/vigenere-cipher/blob/master/CHANGELOG.md). The changelog file will change upon releases and will highlight the general changes. Once a release is made a new branch will be made for that release for archive purposes.
 
 ## Usage
-Please view the [example.php](https://github.com/Paughton/vigenere-cipher/blob/main/example.php) file for more info.
+Please view the [example.php](https://github.com/Paughton/vigenere-cipher/blob/master/example.php) file for more info.
 ```PHP
 require_once("vigenerecipher.php");
 define("VIGENERECIPHER_SEED", "5215295199971613878824149"); // created using \Vigenere\Cipher::generateSeed(25);
@@ -50,4 +50,4 @@ Please open up an issue and be descriptive as possible.
 If you would like to contribute please fork the repository and issue a pull request for future changes.
 
 ### Copyright
-Copyright (c) 2021 Paughton. [MIT License](https://github.com/Paughton/vigenere-cipher/blob/main/LICENSE.md).
+Copyright (c) 2021 Paughton. [MIT License](https://github.com/Paughton/vigenere-cipher/blob/master/LICENSE).
